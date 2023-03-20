@@ -1,0 +1,45 @@
+
+QUIZ
+
+1. Questions in an array, false questions and 1 correct.
+2. Be able to set the questions and correctQ in an admin-panel.
+3. Keep track of questions answered/correct.
+4. Check the answer to the correct one.
+5. 
+
+Functions
+addQuestion
+deleteQuestion
+updateQuestion
+
+RENDER
+- Buttons
+    - answer question button
+    - next question, change the currentQ to increase
+    - start quiz
+    - reset quiz
+    
+
+
+
+// data för frågorna:
+// data för quizzet:
+
+// när man klickar på ett svarsalternativ:
+//  1. kolla om det var rätt svar.
+//      -öka score
+//  2. kolla om det var sista frågan.
+//      -currentQ == array.len-1, show res: true
+
+
+// Redux-funktioner
+// 1. addQuestion
+// 2. updateQuestion
+// 3. deleteQuestion
+
+// 4. startQuiz ->
+// quizStarted: true, showResult: false, currentQ: 0, score: 0
+
+// 5. answerQuestion -> 
+// kolla om rätt svar -> öka score
+// kolla om sista frågan -> show res = true
